@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Eerste (1e) cursusavond voor vrijwillige hulpverleners"
-date: 2013-10-27
+title: "Eerste cursusavond voor vrijwillige hulpverleners"
+date: 2013-10-26 20:13:06
 categories: media
 permalink: aed-duiven.nl/eerste-cursusavond-voor-vrijwillige-hulpverleners
 ---
