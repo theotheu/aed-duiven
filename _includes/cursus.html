@@ -1,0 +1,17 @@
+<h2>Beginnerscursus Reanimatie met AED</h2>
+
+<p>De komende maanden worden enkele cursussen gegeven waaraan u kunt deelnemen. Hiervoor wordt een kleine vergoeding (€25) gevraagd. Deze kosten worden waarschijnlijk door uw verzekering (grotendeels) vergoed: <a href="http://www.reanimatie3b.nl/vergoeding_zorgverzekeraars.html" target="_blank">zie de vergoeding van de zorgverzekeraars</a>.</p>
+
+<p>Let op De eerste 100 aanmeldingen (van de basiscursus) zullen gratis worden verzorgd (door Bosman). Dit geldt niet voor de herhalingscursus.</p>
+
+<h2>Meld u nu aan</h2>
+<p>Voor een basis- of herhalingscursus</p>
+<ul class="list-unstyled">
+{% for item in site.data.settings.cursus %}
+	<li>
+		<h3>{{ item.title }}</h3>
+		<p>{{ item.description }}</p>
+		<a href="{{ item.url }}" class="btn btn-primary" target="_blank" title="Schrijf je nu in voor {{ item.title }}">aanmelden</a>
+	</li>
+{% endfor %}
+</ul>

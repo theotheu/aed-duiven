@@ -1,0 +1,23 @@
+footer
+	background: tint($brand,70%)
+	border-top: 1px solid tint($brand,50%)
+	padding-top: 20px
+	padding-bottom: 30px
+	.copyright
+		padding-top: 25px
+		text-align:	center
+		a
+			color: tint($brand,20%)
+		a:hover
+			color: $accent
+
+@media ( max-width: 768px )
+	footer
+		text-align: center
+		.copyright
+			padding-top: 30px
+
+@media ( min-width: 768px )
+	footer
+		.copyright
+			text-align: center

@@ -1,0 +1,42 @@
+<footer class="container-fluid">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-4 col-md-3">
+				<h3>Volg ons op social media</h3>
+				<ul class="list-inline social-links">
+				{% for social in site.data.settings.socials %}
+					<li><a href="{{ social.url }}" target="_blank" class="fa fa-{{ social.icon }} fa-2x"></a></li>
+				{% endfor %}
+				</ul>
+			</div>
+			<div class="col-sm-4 col-md-3">
+				<h3>Correspondentieadres</h3>
+				<ul class="list-unstyled">
+					<li>Postbus 49</li>
+					<li>6920 AA  Duiven</li>
+				</ul>
+			</div>
+			<div class="col-sm-4 col-md-3">
+				<h3>Meest bezochte pagina's</h3>
+				<ul class="list-unstyled">
+				  {% for item in site.data.settings.menu %}
+				  	{% if item.footer == 'y' %}
+				  	<li><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></li>
+				  	{% endif %}
+				  {% endfor %}
+				 </ul>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12 copyright">
+				<ul class="list-inline">
+					<li><small>Copyright {{site.data.settings.title}}</small></li>
+					<li><small>All rights reserved.</small></li>
+				</ul>
+				<ul class="list-inline">
+					<li><small>ontwerp & realisatie <a href="http://publiceervoormij.nl">publiceervoormij.nl</a></small></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</footer>

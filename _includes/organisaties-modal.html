@@ -1,0 +1,53 @@
+{% for organisatie in site.data.settings.organisaties %}
+<div class="modal fade" id="{{ organisatie.id }}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">sluit</span></button>
+				<h4 class="modal-title" id="myModalLabel">{{ organisatie.naam }}</h4>
+			</div>
+			<div class="modal-body">
+				{% if organisatie.afbeelding != '' %}
+				<div class="row text-center">
+					<div class="col-md-4">
+						<img src="{{ organisatie.afbeelding }}" class="img-responsive thumbnail">
+					</div>
+				</div>
+				{% endif %}
+
+				<address>
+				<strong>{{ organisatie.naam }}</strong><br/>
+				{{ organisatie.adres }}<br/>
+				{{ organisatie.contact }}
+				</address>
+
+				<!-- beschikbaarheid -->
+				<h3>Beschikbaarheid</h3>
+				{% if organisatie.24x7 == 'Y' %}
+				<p><img src="{{ site.baseurl }}/assets/img/icon-map-247.png" /> 24 x 7, 365 dagen</p>
+				{% else if %}
+				<p><img src="{{ site.baseurl }}/assets/img/icon-map.png" /> beperkter beschikbaar, zie openingstijden.</p>
+				{% endif %}
+
+				<h3>Openingstijden</h3>
+				<ul class="list-unstyled">
+					<li>{{ organisatie.openingsdagen }}</li>
+					<li>{{ organisatie.openingstijden }}</li>
+				</ul>
+
+				<h3>Binnen of buiten?</h3>
+				{{ organisatie.locatie }}
+
+				{% if organisatie.opmerking != '' %}
+				<h3>Opmerking</h3>
+				{{ organisatie.opmerking }}
+				{% endif %}
+
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">sluit</button>
+			</div>
+		</div>
+	</div>
+</div>
+{% endfor %}

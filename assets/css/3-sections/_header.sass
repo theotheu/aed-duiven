@@ -1,0 +1,58 @@
+body > header
+	.container
+		min-height:	100px
+		margin-bottom: 25px
+
+		.hart
+			min-height: 100px
+			@extend %background-image
+			background:
+				position: 50% 50%
+				size: 70px 70px
+				image: url(../img/hartje.png) 
+
+
+		h1
+			color: $accent
+			font-family: 'Open Sans', sans-serif
+			font-weight: 900
+			text-align: center
+
+	nav
+		padding-top: 45px
+
+		ul
+			li
+				a
+					padding: 5px
+					border-bottom: 1px solid transparent
+					font-weight: 700
+				
+				a:active, a:hover, a:focus
+					border-bottom: 1px solid $brand
+			li.active
+				a
+					color: $brand
+					border-bottom: 1px solid transparent
+.page-header
+
+	h1
+		color: $brand
+		font-family: 'Open Sans', sans-serif
+		font-weight: 900
+		text-align: left
+
+.post-meta
+	color: tint($brand,50%)
+	font-style: italic
+
+@media ( max-width : 375px )
+	body > header
+		.container
+			margin-bottom: 0px
+			h1
+				padding-top: 0
+				padding-bottom: 25px
+
+			nav
+				text-align: center

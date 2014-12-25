@@ -1,0 +1,34 @@
+<section class="container-fluid nieuws">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4">
+				<h2>Nieuws</h2>
+				<ul class="list-unstyled nieuws">
+				{% for post in site.categories.nieuws %}
+				  <li>
+				    <h3><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
+				    <p>{{ post.excerpt }}</p>
+				    <span class="post-meta">{{ post.date | date: "%F" }}</span>
+				  </li>
+				{% endfor %}
+				</ul>
+			</div>
+			<div class="col-md-4">
+				<h2>In de media</h2>
+				<ul class="list-unstyled media">
+				{% for post in site.categories.media %}
+				  <li>
+				    <h3><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
+				    <p>{{ post.excerpt }}</p>
+				    <span class="post-meta">{{ post.date | date: "%F" }}</span>
+				  </li>
+				{% endfor %}
+				</ul>
+			</div>
+			<div class="col-md-4">
+				<h2>Laatste tweets</h2>
+				{% include twitter.html %}
+			</div>
+		</div>
+	</div>
+</section>

@@ -1,0 +1,15 @@
+.numbers
+	background-color: $brand
+	text-align: center
+	color: tint($brand,80%)
+
+	.bigNumber
+		+transition()
+		color: $accent
+		display: block
+		font-family: 'Oswald', sans-serif
+		font-weight: 300
+		font-size: 120px
+
+		&:hover
+			+transform(scale(1.2))

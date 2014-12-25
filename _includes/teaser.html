@@ -1,0 +1,13 @@
+<section class="container">
+	<div class="row">
+		<div class="col-md-12">
+			<div class="flexslider">
+				<ul class="slides">
+				{% for teaser in site.data.settings.teasers %}
+					<li><img src="{{ site.baseurl }}/assets/img/2952334/{{ teaser.src }}" /></li>
+				{% endfor %}
+				</ul>
+			</div>
+		</div>
+	</div>
+</section>

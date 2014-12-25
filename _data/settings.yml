@@ -1,0 +1,124 @@
+#-------------------------------
+# General Site Settings
+
+title: AED-netwerk Gemeente Duiven
+description: De stichting heeft als doel het streven naar de oprichting, in stand houding en verbetering van een verfijnd AED-netwerk in de gemeente Duiven dat voldoet aan de wensen van alle inwoners.
+email: info@aed-duiven.nl
+
+menu:
+- {title: Home, url: '/', footer: 'n'}
+- {title: Beschikbaarheid, url: '/beschikbaarheid-aeds', footer: 'y'}
+- {title: AED-Bestellen, url: '/aed-bestellen', footer: 'y'}
+- {title: Aanmelden, url: '/aanmelden', footer: 'y'}
+- {title: FAQ, url: '/faq', footer: 'n'}
+- {title: Begunstigers, url: '/begunstigers', footer: 'n'}
+- {title: Partners, url: '/partners', footer: 'n'}
+- {title: Bestuur, url: '/bestuur', footer: 'n'}
+- {title: Contact, url: '/contact', footer: 'y'}
+
+#-------------------------------
+# SEO Section
+
+menu-aanmelden:
+- {title: Hulpverlener, url: '/vrijwillige-hulpverlener', css: 'glyphicon glyphicon-user'}
+- {title: Begunstiger, url: '/begunstiger', css: 'glyphicon glyphicon-euro'}
+- {title: Organisatie, url: '/organisatie', css: 'glyphicon glyphicon-heart'}
+
+organisaties:
+- {id: 49702674, naam: 'Alliander NV', adres: 'Dijkgraaf 4, Duiven', contact: 'Cees van den Haak', openingsdagen: 'Maandag t/m vrijdag', openingstijden: '07:00 - 19:00 uur', locatie: 'binnen', 24x7: '', opmerking: 'De AED bevindt zich normaal bij de receptie, maar tijdens de huidige verbouwing in de tijdelijk portiers unit bij de ingang van het terrein', afbeelding: 'https://www.alliander.com/profiles/alliander/themes/alliander/logo.png'}
+- {id: 49939102, naam: 'Autobedrijf Dago', adres: 'Ratio 22, Duiven', contact: 'Rene van der Linden', openingsdagen: 'Maandag t/m zaterdag', openingstijden: '07:30 - 17:00 uur', locatie: 'binnen', 24x7: '', opmerking: '', afbeelding: ''}
+- {id: 42048517, naam: 'Candea College', adres: 'Eltensestraat 8, Duiven', contact: 'Bert Hendriks', openingsdagen: 'Maandag t/m vrijdag', openingstijden: '07:30 - 17:00 uur', locatie: 'binnen', 24x7: '', opmerking: '', afbeelding: 'http://www.candea.nl/images/logoSub.png'}
+- {id: 72873668, naam: 'Candea College', adres: 'Saturnus 1, Duiven', contact: 'Bert Hendriks', openingsdagen: 'Maandag t/m vrijdag', openingstijden: '07:30 - 17:00 uur', locatie: 'binnen', 24x7: '', opmerking: '', afbeelding: 'http://www.candea.nl/images/logoSub.png'}
+- {id: 42045317, naam: 'CCOG', adres: 'Kastanjelaan 4, Duiven', contact: 'Chris van de Ven', openingsdagen: 'Maandag t/m zondag', openingstijden: '09:00 - 24:00 uur', locatie: 'binnen', 24x7: '', opmerking: 'Tijden zijn in het weekeinde wisselend.  vakanties ook wisselende tijden.', afbeelding: 'http://ccog.nl/wp-content/uploads/ccog-logo.png'}
+- {id: 42659920, naam: 'Dorpsraad Groessen', adres: 'Achtergraardsestraat 2, Groessen', contact: 'Gerard Derksen', openingsdagen: '', openingstijden: '', locatie: 'buiten', 24x7: 'Y', opmerking: 'De AED hangt in de St. Isiodorisplein nr. 4 (Dorpshuis Groessen)', afbeelding: 'http://www.dorpsraadgroessen.nl/templates/dorpsraad_v1/images/logo-dorpsraad-groessen.png'}
+- {id: 46361993, naam: 'Dorpsraad Loo', adres: 'Loostraat 32, Loo', contact: 'Hans Walravens', openingsdagen: '', openingstijden: '', locatie: 'buiten', 24x7: 'Y', opmerking: 'Bij de kerk', afbeelding: ''}
+- {id: 42696589, naam: 'Elshof Passage', adres: 'Elshofpassage, Duiven', contact: 'Ton Bloemberg', openingsdagen: 'Maandag t/m zaterdag', openingstijden: '08.00 tot 17.00 uur', locatie: 'binnen', 24x7: '', opmerking: 'tussen winkel 19-21 (D-Reizen) en  tussen winkel 46-48 (Bakker Bart en Bonvrie).', afbeelding: ''}
+- {id: 45036934, naam: 'FRAMO Sport Medische & Fysiotherapie Groothandel', adres: 't Holland 5, Duiven', contact: 'Albert Peters', openingsdagen: 'Maandag t/m vrijdag', openingstijden: '09:00 - 17:30 uur', locatie: 'binnen', 24x7: '', opmerking: '', afbeelding: 'http://framo.nl/images/logo_framo.png'}
+- {id: 72872640, naam: 'Fysiofit de Liemers', adres: 'Eilandplein 476, Duiven', contact: 'Josee Veneklaas', openingsdagen: 'Maandag t/m zaterdag', openingstijden: '08:30 - 17:00 uur', locatie: 'binnen', 24x7: '', opmerking: 'Openingstijden praktijk:  Maandag: 08:30-22:00  Dinsdag: 08:30-21:00  Woensdag: 08:30-18:00  Donderdag: 08:30-22:00  Vrijdag: 08:30-17:00  Zaterdag: 09:00-12:30', afbeelding: 'http://www.fysiofitdeliemers.nl/images/logo.png'}
+- {id: 42046397, naam: 'Fysiopraktijk Snippenburg', adres: 'De Maatjes 40, Duiven', contact: 'Paul van Snippenburg', openingsdagen: 'Maandag t/m vrijdag', openingstijden: '08:30 - 18:00 uur', locatie: 'binnen', 24x7: '', opmerking: '', afbeelding: ''}
+- {id: 25991223, naam: 'Gemeente Duiven', adres: 'Kastanjelaan 3', contact: 'Joyce de Rijk', openingsdagen: '', openingstijden: '', locatie: 'buiten', 24x7: 'Y', opmerking: '', afbeelding: 'https://www.duiven.nl/data/applicatie/duiven.website/logo.gif'}
+- {id: 42641112, naam: 'Gemeente Duiven', adres: 'Ploenstraat 3, Duiven', contact: 'Suzan Blaauw', openingsdagen: 'Maandag t/m vrijdag', openingstijden: '07:45 - 16:45 uur', locatie: 'binnen', 24x7: '', opmerking: 'Het afvalaanbiedstation is gesloten van 12.00 uur tot 13.00 uur. Dan kan de AED dus niet gebruikt worden. Op zaterdag is de AED ook beschikbaar van 8.30 tot 12.30 uur', afbeelding: 'https://www.duiven.nl/data/applicatie/duiven.website/logo.gif'}
+- {id: 42048319, naam: 'Hatraco Technische Handelsonderneming B.V.', adres: 't Holland 4, Duiven', contact: 'Frank Winkelhorst', openingsdagen: 'Maandag t/m vrijdag', openingstijden: '08:30 - 16:30 uur', locatie: 'binnen', 24x7: '', opmerking: '', afbeelding: 'http://hatraco.com/sites/default/files/images/logo_klein.png'}
+- {id: 72874516, naam: 'Jumbo Duiven', adres: 'Pastoriestraat 2, Duiven', contact: 'Chris Gradussen', openingsdagen: 'Maandag t/m zaterdag', openingstijden: '07:00 - 20:15 uur', locatie: 'binnen', 24x7: '', opmerking: 'vrijdag tot 21:15 uur zondag van 11:00 - 18:00 uur', afbeelding: 'http://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/-/nl_NL/images/logo.png'}
+- {id: 72874527, naam: 'Jumbo Duiven', adres: 'Eilandplein 508, Duiven', contact: 'Chris Gradussen', openingsdagen: 'Maandag t/m zaterdag', openingstijden: '07:00 - 20:15 uur', locatie: 'binnen', 24x7: '', opmerking: 'vrijdag tot 21:15 uur zondag van 11:00-18:00 uur', afbeelding: 'http://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/-/nl_NL/images/logo.png'}
+- {id: 61178010, naam: 'Liemerije', adres: 'Fuutstraat 52, Duiven', contact: 'Hans Waaldijk', openingsdagen: 'Maandag t/m zondag', openingstijden: '07:00 - 19:00 uur', locatie: 'binnen', 24x7: '', opmerking: '', afbeelding: ''}
+- {id: 44631221, naam: 'Praktijk voor Gezondheidsbevordering', adres: 'Beerenclaauwstraat 1, Groessen', contact: 'Adriane Sweers', openingsdagen: '', openingstijden: '', locatie: 'binnen', 24x7: 'Y', opmerking: 'Locatie AED: Eerste zwarte bijgebouwtje met witte deur', afbeelding: ''}
+- {id: 42499973, naam: 'Rabobank De Liemers', adres: 'Burgemeester van Dorth tot Medlerstraat 1, Duiven', contact: 'Marco Reichwein', openingsdagen: '', openingstijden: '', locatie: 'buiten', 24x7: 'Y', opmerking: '', afbeelding: 'http://www.rabobank.nl/static/generic/css/images/s14/rabobank-logo.png'}
+- {id: 42048285, naam: 'SITA Recycling Services', adres: 'Roelofshoeveweg 41, Duiven', contact: 'Michelle Geurds', openingsdagen: 'Maandag t/m vrijdag', openingstijden: '08:30 - 17:00 uur', locatie: 'binnen', 24x7: '', opmerking: '', afbeelding: ''}
+- {id: 49427585, naam: 'Sportcentrum Aerofitt Duiven', adres: 'Westsingel 29, Duiven', contact: 'Sanne van Tuijl', openingsdagen: 'Maandag t/m vrijdag', openingstijden: '07:30 - 22:00 uur', locatie: 'binnen', 24x7: '', opmerking: 'Zaterdag en zondag van 09.00-13.00', afbeelding: 'http://www.aerofitt.nl/wp-content/uploads/2013/05/Logo_aerofitt_rood.png'}
+- {id: 42048051, naam: 'Sporthal Triominos', adres: 'Eltensestraat 4, Duiven', contact: 'Jan Jansen', openingsdagen: '', openingstijden: '', locatie: 'binnen', 24x7: 'Y', opmerking: 'De AED hangt in de centrale hal van ons sportcentrum.', afbeelding: ''}
+- {id: 68225967, naam: 'tandartspraktijk Mertens', adres: 'Mondriaanstraat 12, Duiven', contact: 'Michael Mertens', openingsdagen: 'Maandag t/m donderdag', openingstijden: '08:00 - 17:00 uur', locatie: 'binnen', 24x7: '', opmerking: 'Tijdens de praktijk-vakanties is er niemand aanwezig. Deze vakanties hebben geen vaste datums. Het is voor ons niet mogelijk om de AED in die Periode beschikbaar te stellen.', afbeelding: ''}
+- {id: 61953464, naam: 'Tennis Centre Duiven', adres: 'De Nieuweling 2, Duiven', contact: 'Paul Hogenhout', openingsdagen: 'Maandag t/m Zondag', openingstijden: '08:30 tot 18:00 uur', locatie: 'buiten', 24x7: 'Y', opmerking: 'Het hek is altijd open', afbeelding: ''}
+- {id: 45682567, naam: 'Th Jansen Beheer BV', adres: 'Ratio 16, Duiven', contact: 'Gerard Huitink', openingsdagen: 'Maandag t/m vrijdag', openingstijden: '08:30 - 17:00 uur', locatie: 'binnen', 24x7: '', opmerking: '', afbeelding: 'http://www.thjansenbeheer.nl/wp-content/uploads/2012/10/jhb_logo-250x1271.jpg'}
+- {id: 42047963, naam: 'Theepaviljoen Horsterpark', adres: 'Horsterparklaan 4, Duiven', contact: 'Chris van de Ven', openingsdagen: 'Maandag t/m zondag', openingstijden: '12:00 - 17:00 uur', locatie: 'binnen', 24x7: '', opmerking: 'Door de week beschikbaar vanaf negen uur.', afbeelding: 'http://www.horsterpark.nl/horsterpark/images/common/logo.gif'}
+- {id: 42048659, naam: 'Zaal Gieling Groessen', adres: 'Dorpstraat 29, Groessen', contact: 'Rob Gieling', openingsdagen: 'Maandag t/m zondag', openingstijden: '07:00 - 19:00 uur', locatie: 'buiten', 24x7: 'Y', opmerking: '', afbeelding: 'http://zaalgielinggroessen.nl/Websites/zgg/templates/zgg/img/logo-zgg-50-jaar.jpg'}
+
+
+seo:
+  description: 'De stichting heeft als doel het streven naar de oprichting, in stand houding en verbetering van een verfijnd AED-netwerk in de gemeente Duiven dat voldoet aan de wensen van alle inwoners.'
+  rel-author: 'info@aed-duiven.nl'
+  rel-publisher: 'info@aed-duiven.nl'
+
+downloads:
+- {title: 'Beleidsplan en meerjarenbegroting', url: '141105.Beleidsplan_Stichting_AED_tbv_website_ivm_ANBI_versie_2..pdf', size: '37 KB'}
+- {title: 'Huishoudelijk Reglement', url: 'Huishoudelijk_Reglement_AED_Duiven_(2012-05-23).pdf', size: '34 KB'}
+
+financieel:
+- {title: 'Verkorte jaarrekening 2012', url: 'http://aed-duiven.nl/Websites/aed/files/Content/4422995/140414.verkorte_jaarrekening_2012.pdf', size: '1.3 MB'}
+- {title: 'Verkorte jaarrekening 2013', url: '140414.verkorte_jaarrekening_2013.pdf', size: '1.4 MB'}
+
+#- { title: 'x', link: 'x', size: '0 KB'}
+
+cursus:
+- {title: '05-02-2015 Herhalingscursus', description: 'Start vanaf 19:00 uur, zaal 5, CCOG te Duiven', url: 'https://pigeons.wufoo.com/forms/xne3jgc0wnla0a'}
+- {title: '12-02-2015 Basisscursus', description: 'Start vanaf 19:00 uur, zaal 5, CCOG te Duiven', url: 'https://pigeons.wufoo.com/forms/xne3jgc0wnla0a'}
+- {title: '19-02-2015 Herhalingscursus', description: 'Start vanaf 19:00 uur, zaal 5, CCOG te Duiven', url: 'https://pigeons.wufoo.com/forms/xne3jgc0wnla0a'}
+
+aanmelden:
+- {title: 'Vrijwillige hulpverlener', description: '... en neem graag vrijwillig deel aan een netwerk met gelijk geïnteresseerden met als doel het verbeteren van het AED-netwerk.', url: 'https://pigeons.wufoo.com/forms/s15b358q1d2ks4c/'}
+- {title: 'Begunstiger', description: '... en draag financieel bij aan de aanschaf en exploitatie van een AED-toestel om de overlevingskans bij een hartstilstand in Duiven, Groessen of Loo te vergroten.', url: 'https://pigeons.wufoo.com/forms/s1luf8ux00k38i8/'}
+- {title: 'Organisatie', description: '... en stel ons reeds aanwezige AED-toestel beschikbaar aan de stichting zodat deze voor alle inwoners 24 uur per dag beschikbaar is en wordt onderhouden onder toezicht van de stichting.', url: 'https://pigeons.wufoo.com/forms/soj4deg1wngagn/'}
+#- {title: 'Partner', description: '... en stel mijn deskundigheid beschikbaar voor het adviseren en ondersteunen van het bestuur van de stichting.', url: 'http://aed-duiven.nl/partner'}
+
+socials:
+- {icon: 'twitter', url: 'http://twitter.com/aedduiven'}
+
+numbers:
+- {id: 'aeds', title: "aantal AED's", aantal: '27'}
+- {id: 'vrij', title: "aantal vrijwilligers", aantal: '156'}
+- {id: 'curs', title: "basiscursus gevolgd", aantal: '68'}
+
+teasers:
+- {src: aed-teaser-01.png }
+- {src: 01.jpg }
+- {src: aed-teaser-02.png }
+- {src: 02.jpg }
+- {src: aed-teaser-03.png }
+- {src: 03.jpg }
+- {src: aed-teaser-04.png }
+- {src: 04.jpg }
+- {src: aed-teaser-05.png }
+- {src: 05.jpg }
+- {src: 06.jpg }
+- {src: 07.jpg }
+- {src: 08.jpg }
+- {src: 09.jpg }
+- {src: 10.jpg }
+- {src: 11.jpg }
+- {src: 12.jpg }
+- {src: 13.jpg }
+- {src: 14.jpg }
+- {src: 15.jpg }
+- {src: 16.jpg }
+- {src: 17.jpg }
+- {src: 18.jpg }
+- {src: 19.jpg }
+- {src: 20.jpg }
+- {src: 21.jpg }
+- {src: 22.jpg }
+- {src: 23.jpg }
+- {src: 24.jpg }
+- {src: 25.jpg }
+- {src: 26.jpg }
+- {src: 28.jpg }
+- {src: 29b.jpg }

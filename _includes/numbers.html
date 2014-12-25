@@ -1,0 +1,11 @@
+<section class="container-fluid numbers">
+	<div class="container">
+		<div class="row">
+			{% for number in site.data.settings.numbers %}
+			<div class="col-md-4">
+				<span id="{{ number.id }}" class="bigNumber">{{ number.aantal }}</span> {{ number.title }}
+			</div>
+			{% endfor %}
+		</div>
+	</div>
+</section>

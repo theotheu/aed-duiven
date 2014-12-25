@@ -1,0 +1,27 @@
+.subnav
+	nav
+		text-align:	center
+
+		ul
+			li
+				float: none
+				min-height: 100px
+				
+				a
+					padding: 0 15px
+					display: block
+					font-weight: 700
+
+					em
+						display: block
+						padding: 15px
+
+					.glyphicon
+						+transition()
+						font-size: 35px
+
+						&:hover
+							+transform(scale(1.2))
+			li.active
+				a
+					color: $brand

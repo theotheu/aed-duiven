@@ -1,0 +1,6 @@
+<h3>Financiële verantwoording</h3>
+<ul class="list-unstyled">
+{% for download in site.data.settings.financieel %}
+	<li><a href="{{ site.baseurl }}/assets/files/{{ download.url }}" target="_blank">{{ download.title }}</a> ({{ download.size }})</li>
+{% endfor %}
+</ul>

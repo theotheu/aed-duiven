@@ -1,0 +1,16 @@
+<div class="row">
+	<div class="col-md-12">
+		<ul class="list-unstyled">
+		{% for organisatie in site.data.settings.organisaties %}
+			<li class="">
+			{% if organisatie.24x7 == 'Y' %}
+			<img src="{{ site.baseurl }}/assets/img/icon-map-247.png" /> 
+			{% else%}
+			<img src="{{ site.baseurl }}/assets/img/icon-map.png" /> 
+			{% endif %}
+			<a href="#" data-toggle="modal" data-target="#{{organisatie.id}}">{{ organisatie.naam }}</a>, {{ organisatie.contact }}</li>
+		{% endfor %}
+		</ul>
+	</div>
+</div>
+{% include legenda.html %}

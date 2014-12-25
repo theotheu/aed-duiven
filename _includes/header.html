@@ -1,0 +1,33 @@
+<header>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 hart"></div>
+		</div>
+		<div class="row">
+			<div class="col-md-12 logo">
+				<h1>{{ site.data.settings.title }}</h1>
+			</div>
+		</div>
+	</div>
+</header>
+<nav class="navbar navbar-default" role="navigation">
+	<div class="container-fluid">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mainnav">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			</div>
+			<div class="collapse navbar-collapse" id="mainnav">
+				<ul class="nav navbar-nav">
+				  {% for item in site.data.settings.menu %}
+				  	<li {% if page.active == item.title %}class="active"{% endif %} ><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></li>
+				  {% endfor %}
+				</ul>
+			</div>
+		</div>
+	</div>
+</nav>

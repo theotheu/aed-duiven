@@ -1,0 +1,18 @@
+<div class="container-fluid subnav">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<nav>
+					<h2>Meld u vandaag nog aan als</h2>
+					<ul class="row {{ include.param }}">
+					{% for item in site.data.settings.menu-aanmelden %}
+						<li class="col-md-2{% if page.active == item.title %} active{% endif %}" >
+							<a href="{{ site.baseurl }}{{ item.url }}"><em class="{{ item.css }}"></em>{{ item.title }}</a>
+						</li>
+					{% endfor %}
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</div>
+</div>
