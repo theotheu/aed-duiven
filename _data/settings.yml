@@ -14,7 +14,7 @@ menu:
 - {title: Begunstigers, url: '/begunstigers', footer: 'n'}
 - {title: Partners, url: '/partners', footer: 'n'}
 - {title: Bestuur, url: '/bestuur', footer: 'n'}
-- {title: Contact, url: '/contact', footer: 'y'}
+- {title: Contact, url: '/contact', footer: 'n'}
 
 #-------------------------------
 # SEO Section
