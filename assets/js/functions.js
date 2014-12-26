@@ -127,9 +127,9 @@ function appendBootstrap() {
 
 function initialize(id) {
 	"use strict";
-	var image = '/aed-duiven/assets/img/icon-map.png';
-	var image8 = '/aed-duiven/assets/img/icon-map.png';
-	var image247 = '/aed-duiven/assets/img/icon-map-247.png';
+	var image = '/assets/img/icon-map.png';
+	var image8 = '/assets/img/icon-map.png';
+	var image247 = '/assets/img/icon-map-247.png';
 
 	var overlayTitle = 'AED locatie';
 
