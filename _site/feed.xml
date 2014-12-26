@@ -6,8 +6,13 @@
 </description>
     <link>http://yourdomain.com/aed-duiven/</link>
     <atom:link href="http://yourdomain.com/aed-duiven/feed.xml" rel="self" type="application/rss+xml"/>
+<<<<<<< HEAD
     <pubDate>Thu, 25 Dec 2014 22:50:56 +0100</pubDate>
     <lastBuildDate>Thu, 25 Dec 2014 22:50:56 +0100</lastBuildDate>
+=======
+    <pubDate>Fri, 26 Dec 2014 00:53:34 +0100</pubDate>
+    <lastBuildDate>Fri, 26 Dec 2014 00:53:34 +0100</lastBuildDate>
+>>>>>>> 00e2dc4614f1cbda8c1337165ba25f118253730d
     <generator>Jekyll v2.5.1</generator>
     
       <item>
@@ -53,7 +58,11 @@ Enkele leden van MKB Duiven hebben de Stichting AED-netwerk Gemeente Duiven opge
 &lt;p&gt;Sinds vrijdag 25 oktober hangt er buiten bij het Duivense gemeentehuis een AED-apparaat.
 V.l.n.r. Theo de Reus, Ron Polman, Sjef van Groningen, Joyce de Rijk, Frank Welten en Werner Willems.&lt;/p&gt;
 </description>
+<<<<<<< HEAD
         <pubDate>Mon, 28 Oct 2013 00:00:00 +0100</pubDate>
+=======
+        <pubDate>Mon, 21 Oct 2013 00:00:00 +0200</pubDate>
+>>>>>>> 00e2dc4614f1cbda8c1337165ba25f118253730d
         <link>http://yourdomain.com/aed-duiven/aed-duiven.nl/eerste-cursusavond-voor-vrijwillige-hulpverleners</link>
         <guid isPermaLink="true">http://yourdomain.com/aed-duiven/aed-duiven.nl/eerste-cursusavond-voor-vrijwillige-hulpverleners</guid>
         
