@@ -1,7 +1,0 @@
-### OSX ###
-.DS_Store
-.AppleDouble
-.LSOverride
-
-### Sass ###
-.sass-cache
