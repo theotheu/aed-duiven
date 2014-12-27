@@ -104,10 +104,6 @@ function datify(){
 		var $this = $(this)
 		$this.text(moment($this.text()).format('dddd, D MMMM YYYY'))
     });
-	$('.media .post-meta').each(function(index) {
-		var $this = $(this)
-		$this.text(moment($this.text()).format('dddd, D MMMM YYYY'))
-    });
 }
 /*
 |--------------------------------------------------------------------------
