@@ -3,8 +3,8 @@
 		<ul class="list-unstyled row">
 		{% for organisatie in site.data.settings.organisaties %}
 			<li><a href="#" data-toggle="modal" data-target="#{{organisatie.id}}">
-				<div class="col-md-12 col-md-4">
-					<div class="thumbnail">
+				<div class="col-md-12">
+					<div class="thumbnail {% if organisatie.24x7 == 'Y' %}uur{% endif%}">
 						{% if organisatie.24x7 == 'Y' %}
 						<img src="{{ site.baseurl }}/assets/img/icon-map-247.png" /> 
 

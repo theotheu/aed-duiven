@@ -1,11 +1,24 @@
 a 
 	.thumbnail
 		background-color: tint($accent,80%)
+		img
+			+transition()
 	&:hover
 		.thumbnail
 			border-color: $accent
 			img
 				opacity: 1
+				+transform(scale(1.2))
+
+	.thumbnail.uur
+		background-color: tint($uur,80%)
+	&:hover
+		.thumbnail
+			border-color: $uur
+			img
+				opacity: 1
+				+transform(scale(1.2))
+
 
 
 .caption

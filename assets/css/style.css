@@ -5879,10 +5879,30 @@ footer {
     text-align: center; } }
 a .thumbnail {
   background-color: #fbd1d3; }
+  a .thumbnail img {
+    -webkit-transition: all 0.15s ease-out 0s;
+    -moz-transition: all 0.15s ease-out 0s;
+    transition: all 0.15s ease-out 0s; }
 a:hover .thumbnail {
   border-color: #ed1c23; }
   a:hover .thumbnail img {
-    opacity: 1; }
+    opacity: 1;
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2); }
+a .thumbnail.uur {
+  background-color: #d6e4f0; }
+a:hover .thumbnail {
+  border-color: #337ab7; }
+  a:hover .thumbnail img {
+    opacity: 1;
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2); }
 
 .caption {
   display: block;
