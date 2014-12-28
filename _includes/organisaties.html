@@ -1,16 +1,37 @@
 <div class="row">
 	<div class="col-md-12">
-		<ul class="list-unstyled">
+		<ul class="list-unstyled row">
 		{% for organisatie in site.data.settings.organisaties %}
-			<li class="">
-			{% if organisatie.24x7 == 'Y' %}
-			<img src="{{ site.baseurl }}/assets/img/icon-map-247.png" /> 
-			{% else%}
-			<img src="{{ site.baseurl }}/assets/img/icon-map.png" /> 
-			{% endif %}
-			<a href="#" data-toggle="modal" data-target="#{{organisatie.id}}">{{ organisatie.naam }}</a>, {{ organisatie.contact }}</li>
+			<li>
+				<div class="col-md-12 col-md-4">
+					<div class="thumbnail">
+						{% if organisatie.24x7 == 'Y' %}
+						<img src="{{ site.baseurl }}/assets/img/icon-map-247.png" /> 
+
+						{% else%}
+						<img src="{{ site.baseurl }}/assets/img/icon-map.png" /> 
+
+						{% endif %}
+						<div class="row caption">
+							<div class="col-md-4">
+								<a href="#" data-toggle="modal" data-target="#{{organisatie.id}}">{{ organisatie.naam }}</a>
+							</div>
+							<div class="col-md-4">
+								{{ organisatie.contact }}
+							</div>
+							<div class="col-md-4">
+								{{ organisatie.adres }}
+							</div>
+						</div>
+					</div>
+				</div>
+			</li>
 		{% endfor %}
 		</ul>
 	</div>
 </div>
-{% include legenda.html %}
+<div class="row">
+	<div class="col-md-12">
+	{% include legenda.html %}
+	</div>
+</div>
