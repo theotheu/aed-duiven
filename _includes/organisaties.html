@@ -2,7 +2,7 @@
 	<div class="col-md-12">
 		<ul class="list-unstyled row">
 		{% for organisatie in site.data.settings.organisaties %}
-			<li>
+			<li><a href="#" data-toggle="modal" data-target="#{{organisatie.id}}">
 				<div class="col-md-12 col-md-4">
 					<div class="thumbnail">
 						{% if organisatie.24x7 == 'Y' %}
@@ -14,7 +14,7 @@
 						{% endif %}
 						<div class="row caption">
 							<div class="col-md-4">
-								<a href="#" data-toggle="modal" data-target="#{{organisatie.id}}">{{ organisatie.naam }}</a>
+								{{ organisatie.naam }}
 							</div>
 							<div class="col-md-4">
 								{{ organisatie.contact }}
@@ -24,7 +24,7 @@
 							</div>
 						</div>
 					</div>
-				</div>
+				</div></a>
 			</li>
 		{% endfor %}
 		</ul>

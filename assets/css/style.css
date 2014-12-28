@@ -5614,12 +5614,6 @@ section {
 .tab-content {
   padding-top: 20px; }
 
-.caption {
-  display: block;
-  padding-top: 10px;
-  text-align: center;
-  font-size: 1.2rem; }
-
 [type="submit"] {
   background: #ed1c23;
   border: 1px solid #f68d91;
@@ -5883,5 +5877,17 @@ footer {
 @media (min-width: 768px) {
   footer .copyright {
     text-align: center; } }
+a .thumbnail {
+  background-color: #fbd1d3; }
+a:hover .thumbnail {
+  border-color: #ed1c23; }
+  a:hover .thumbnail img {
+    opacity: 1; }
+
+.caption {
+  display: block;
+  padding-top: 10px;
+  text-align: center;
+  font-size: 1.2rem; }
 
 /*# sourceMappingURL=style.css.map */
