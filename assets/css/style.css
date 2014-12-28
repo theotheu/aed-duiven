@@ -5894,9 +5894,9 @@ a:hover .thumbnail {
     transform: scale(1.2); }
 a .thumbnail.uur {
   background-color: #d6e4f0; }
-a:hover .thumbnail {
+a:hover .thumbnail.uur {
   border-color: #337ab7; }
-  a:hover .thumbnail img {
+  a:hover .thumbnail.uur img {
     opacity: 1;
     -webkit-transform: scale(1.2);
     -moz-transform: scale(1.2);
