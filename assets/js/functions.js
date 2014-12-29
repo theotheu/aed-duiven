@@ -100,7 +100,7 @@ function marktable() {
 	}
 }
 function datify(){
-	$('.nieuws .post-meta, .page-header .post-meta').each(function(index) {
+	$('.post-meta').each(function(index) {
 		var $this = $(this)
 		$this.text(moment($this.text()).format('dddd, D MMMM YYYY'))
     });
