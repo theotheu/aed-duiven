@@ -1,22 +1,17 @@
 # Site settings
 
-title: Your awesome title
-email: your-email@domain.com
-
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+title: AED-netwerk Gemeente Duiven
+description: De stichting heeft als doel het streven naar de oprichting, in stand houding en verbetering van een verfijnd AED-netwerk in de gemeente Duiven dat voldoet aan de wensen van alle inwoners.
+email: info@aed-duiven.nl
 
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: ""
 
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "http://aed-duiven.nl" # the base hostname & protocol for your site
+twitter_username: aedduiven
 
 # Build settings
 markdown: kramdown
 permalink: pretty
 
-exclude: ['PSD']
+exclude: ['PSD', 'README.md', 'CNAME']

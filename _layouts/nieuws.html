@@ -1,0 +1,39 @@
+---
+layout: default
+---
+<section class="container-fluid">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<h1>{{ page.title }}</h1>
+				{{ content }}
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-6">
+				<h2>Nieuws</h2>
+				<ul class="list-unstyled nieuws">
+				{% for post in site.categories.nieuws %}
+				  <li>
+				    <h3><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
+				    <p>{{ post.excerpt }}</p>
+				    <span class="post-meta">{{ post.date | date: "%F" }}</span>
+				  </li>
+				{% endfor %}
+				</ul>
+			</div>
+			<div class="col-md-6">
+				<h2>In de media</h2>
+				<ul class="list-unstyled media">
+				{% for post in site.categories.media %}
+				  <li>
+				    <h3><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
+				    <p>{{ post.excerpt }}</p>
+				    <span class="post-meta">{{ post.date | date: "%F" }}</span>
+				  </li>
+				{% endfor %}
+				</ul>
+			</div>
+		</div>
+	</div>
+</section>
