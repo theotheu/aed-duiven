@@ -159,8 +159,6 @@ function initialize(id) {
 			['Zaal Gieling Groessen', 'Dorpstraat 29, Groessen', 51.9321048,6.0275047, '42048659', 'Y' ]
 		];
 
-		$('#aeds').text(locations.length)
-		
 		/*** DON'T CHANGE ANYTHING PASSED THIS LINE ***/
 		id = (id === undefined) ? 'mapWrapper' : id;
 
