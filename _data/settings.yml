@@ -84,7 +84,7 @@ socials:
 - {icon: 'twitter', url: 'http://twitter.com/aedduiven'}
 
 numbers:
-- {id: 'aeds', title: "aantal AED's", aantal: '271'}
+- {id: 'aeds', title: "aantal AED's", aantal: '27'}
 - {id: 'vrij', title: "aantal vrijwilligers", aantal: '156'}
 - {id: 'curs', title: "basiscursus gevolgd", aantal: '68'}
 
