@@ -1,23 +1,7 @@
 ---
-layout: page
+layout: contact
 title: Contact
 active: Contact
 class: contact lijst
 ---
-###Correspondentieadres
-
-* **AED-netwerk Gemeente Duiven**
-* Postbus 49
-* 6920 AA  Duiven
-
-###Rabobank
-
-* Rekeningnummer NL45 RABO 0341 4151 89
-
-###Kamer van Koophandel
-
-* KvK-nummer 55521290
-
-###Fiscaal nummer (RSIN)
-
-* 8517.49.057
+Heeft u een vraag of bent u geïnteresseerd in aanvullende informatie, voor nu of in de toekomst, stuur dan een email naar [bestuur@aed-duiven.nl](mailto:bestuur@aed-duiven.nl){: target="_blank"} met daarin uw gegevens en uw vraag of interesse zodat het bestuur met u contact kan opnemen. Eventueel kan telefonsich contact op worden genomen via 06-22906023 (voorzitter). 
