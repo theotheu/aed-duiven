@@ -5,6 +5,9 @@ date: 2014-08-25
 categories: nieuws
 permalink: aed-netwerk-groessen-hartveiliger-gemaakt
 ---
-Rob Gieling, van Zaal Gieling Groessen, draagt al vanaf het begin van de oprichting de Stichting AED netwerk een warm hart toe. Het was dan ook niet vreemd dat zij zonder problemen medewerking verleenden aan het buiten plaatsen van hun zelf aangekochte AED, waarbij de stichting zorgde voor de buitenkast. 
+Rob Gieling, van Zaal Gieling Groessen, draagt al vanaf het begin van de oprichting de Stichting AED netwerk een warm hart toe. Het was dan ook niet vreemd dat zij zonder problemen medewerking verleenden aan het buiten plaatsen van hun zelf aangekochte AED, waarbij de stichting zorgde voor de buitenkast.
+
+
+![foto van AED bij voordeur Zaal Gieling Groessen](/assets/img/20140815-aed-gieling-groessen.jpg "AED netwerk, Groessen hartveiliger gemaakt"){: class="img-thumbnail"}
 
 [Lees meer »](http://www.duiven.nl/actueel/nieuws/aed-netwerk-groessen-hartveiliger-gemaakt){: target="_blank"}
