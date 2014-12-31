@@ -3,7 +3,7 @@ layout: post
 title: "Eerste cursusavond voor vrijwillige hulpverleners"
 date: 2013-10-28
 categories: media
-permalink: aed-duiven.nl/eerste-cursusavond-voor-vrijwillige-hulpverleners
+permalink: eerste-cursusavond-voor-vrijwillige-hulpverleners
 ---
 ###AED-netwerk in gemeente Duiven krijgt gestalte
 
@@ -28,7 +28,7 @@ Ondernemer Werner Willems was twee jaar geleden de animator van het project. Hij
 
 “Nu zitten we in een flow. Er zijn al meer dan tachtig vrijwilligers, maar we hebben er nog veel meer nodig. De wethouder steunt ons, we zijn genomineerd voor het stimuleringsfonds van Rabobank De Liemers en we gaan zelf ook proberen fondsen te werven”, aldus Willems. Via de website van de stichting kunnen geïnteresseerden zich melden bij de Stichting AED-netwerk Gemeente Duiven, www.aed-duiven.nl.
 
-![V.l.n.r. Theo de Reus, Ron Polman, Sjef van Groningen, Joyce de Rijk, Frank Welten en Werner Willems.]({{site.baseurl}}/assets/img/gemeente-duiven-heeft-sinds-25-oktober-2013-aed-buiten.jpg "titel"){: class="img-thumbnail"}
+![V.l.n.r. Theo de Reus, Ron Polman, Sjef van Groningen, Joyce de Rijk, Frank Welten en Werner Willems.](/assets/img/gemeente-duiven-heeft-sinds-25-oktober-2013-aed-buiten.jpg "foto bij gemeentehuis"){: class="img-thumbnail"}
 
 Sinds vrijdag 25 oktober hangt er buiten bij het Duivense gemeentehuis een AED-apparaat.
 V.l.n.r. Theo de Reus, Ron Polman, Sjef van Groningen, Joyce de Rijk, Frank Welten en Werner Willems.
