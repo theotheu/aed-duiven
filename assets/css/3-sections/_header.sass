@@ -9,7 +9,7 @@ body > header
 			background:
 				position: 50% 50%
 				size: 70px 70px
-				image: url(../img/hartje.png) 
+				image: url(../img/hartje.png)
 
 
 		h1
@@ -17,6 +17,14 @@ body > header
 			font-family: 'Open Sans', sans-serif
 			font-weight: 900
 			text-align: center
+			+transition(all 300ms $ease-out-back)
+
+			a
+				color: $accent
+
+			&:hover
+				+transform(scale(1.1))
+
 
 	nav
 		padding-top: 45px
@@ -27,7 +35,7 @@ body > header
 					padding: 5px
 					border-bottom: 1px solid transparent
 					font-weight: 700
-				
+
 				a:active, a:hover, a:focus
 					border-bottom: 1px solid $brand
 			li.active
