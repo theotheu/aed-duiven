@@ -36,18 +36,18 @@ a
 a:hover, a:focus, a:active
 	color: $brand
 	text-decoration: none
-	
+
 	img
 		opacity: 0.6
 section
 	padding-top: 30px
 	padding-bottom: 60px
-	
+
 .btn-primary
 	background-color: $accent
 	border: 1px solid $accent
 	border-radius: 0px
-	+transition()
+	+transition(all 300ms $ease-out-back)
 
 	&:hover
 		background-color: $brand
@@ -55,7 +55,7 @@ section
 
 .tab-content
 	padding-top: 20px
-	
+
 [type="submit"]
 	background: $accent
 	border: 1px solid tint($accent,50%)
@@ -85,4 +85,3 @@ section
 	padding-bottom: 30px
 .pt30
 	padding-top: 30px
-	
